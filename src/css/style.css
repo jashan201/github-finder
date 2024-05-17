@@ -1,0 +1,113 @@
+html {
+    background-color: #dedede;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: #dedede;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin-inline: auto;
+    display: grid;
+    background-color: #dedede;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    place-self: center;
+}
+
+/* ------------------------ */
+/* --------search --------- */
+/* ------------------------ */
+
+.logo {
+    height: 70px;
+    margin-left: 90px;
+}
+
+.search-section {
+    display: grid;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+input[type=text]{
+    width: 250px;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 2px solid rgb(11, 26, 89);
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+}
+
+/* ------------------------- */
+/* ---------profile--------- */
+/* ------------------------- */
+
+.profile {
+    height: 70vh;
+    background-color: #dedede;
+    display: grid;
+    place-items: center;
+}
+
+.profile h3 {
+    margin-top: 10px;
+}
+
+.profile img {
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(11, 26, 89);
+}
+
+.bio {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------- */
+/* ---------repo------------ */
+/* ------------------------- */
+
+.repo {
+    width: 600px;
+    border-radius: 4px;
+    border: 1px solid rgb(11, 26, 89);
+    display: grid;
+    padding: 10px;
+    background-color: rgba(11, 27, 89, 0.107);
+    margin: 10px;
+}
+
+.repo a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.repo section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.error {
+    font-size: 30px;
+    margin-left: 30px;
+}
